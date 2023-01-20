@@ -1,15 +1,9 @@
-let alturaCm = 183;
 
-console.log(parseInt (alturaCm));
+const altura_cm = 181
+const altura_m = 1.81
+const peso_kg = 80.2
 
-let alturaMetros = 1.83;
+const altura_red = Math.ceil(altura_m)
+const peso_red = Math.floor(peso_kg)
 
-console.log(parseFloat (alturaMetros));
-
-let peso = 83.5
-
-console.log(peso.toFixed(4));
-
-let arriba = (alturaMetros.toFixed(1))
-
-console.log(arriba);
+const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE
